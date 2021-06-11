@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+}
+
+h2, h3 {
+    text-align: center;
+}
+.container img {
+    width: 250px;
+    height: 300px;
+}
+
+
+
+.container div {
+    margin: 2%;
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: lightblue;
+}
+
+/*
+container domestique*/
+.container_dom img{
+    width: 250px;
+    height: 300px;
+}
+.container_dom div{
+    margin: 2%;
+    text-align: center;
+    border: 2px solid #ccc;
+    background-color: blue;
+}
+
+
+@media screen and (min-width:750px){
+    .container_dom{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+}
